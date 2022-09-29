@@ -1,0 +1,189 @@
+/*====== =============*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.header__menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu .menu__list{
+    display: flex;
+    list-style: none;
+}
+
+.header__menu .menu__list .list__item{
+    padding: 0 10px;
+    margin-right: 10px;
+}
+
+.header__menu .menu__list .list__item.inscribirse a{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.header__menu .menu__list .list__item.youtube a{
+    background-color: #c4302b;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.section{
+    padding: 1em 10em;
+}
+
+.header__container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header__text{
+    width: 50%;
+}
+
+.header__text .header__text-title span{
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.header__text .header__text-title{
+    font-size: 4em;
+    font-weight: 700;
+}
+
+
+
+.header__text .header__text-link{
+    padding-top: 50px;
+}
+
+.header__text .header__text-link a{
+    text-decoration: none;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 15px;
+    padding: 10px 50px;
+    font-size: 25px;
+}
+
+.header__container-img{
+    width: 50%;
+}
+
+.section .header__container-img img{
+    width: 100%;
+    border-radius:15px ;
+}
+
+/*=============BENEFICIOS=====*/
+.benefits{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+    margin: 1em 10em;
+    padding: 50px 0;
+    border-radius: 15px;
+    
+}
+
+.benefit__container{
+    background-color: #ffffff;
+    padding: 50px;
+    border-radius: 15px;
+    margin-right: 20px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.benefit__container i{
+    font-size: 60px;
+    margin-right: 20px;
+}
+/*======subtitle======*/
+
+.subtitle{
+    margin: 1em 10em;
+    font-size: 48px;
+}
+
+/*===========PROCESO==============*/
+.proceso{
+    display: flex;
+    width: 100%;
+}
+.proceso__container{
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #f1f1f1;
+    width: 25%;
+    margin-right: 10px;
+    
+}
+
+.proceso__container .proceso__subtitle{
+    padding-bottom: 20px;
+    font-size: 28px;
+}
+
+.proceso__container .proceso__text{
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+/*=====================PRICES================*/
+.prices{
+    background-color: #f1f1f1;
+    margin: 2em 10em;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.price__container .price__subtitle{
+    font-size: 28px;
+    padding-bottom: 50px;
+}
+
+.moneda__container{
+    display: flex;
+    font-size: 48px;
+    padding-bottom: 20px;
+}
+
+.moneda__container .moneda__soles{
+    margin-right: 30px;
+    border-right: 2px solid #000000;
+    padding-right: 30px;
+}
+
+.price__info{
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.price__info a{
+    background-color: #25D366;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 48px;
+    padding: 20px 40px ;
+    border-radius: 15px;
+}
